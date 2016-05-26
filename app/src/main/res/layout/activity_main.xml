@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="8dp"
+    android:background="@color/colorAccent"
+    tools:context=".ui.MainActivity">
+   <FrameLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/frame_layout">
+   </FrameLayout>
+
+   <include layout="@layout/search_layout"
+       ></include>
+
+   <android.support.design.widget.FloatingActionButton
+       android:layout_width="72dp"
+       android:layout_height="72dp"
+       android:id="@+id/float_buton"
+       android:src="@drawable/ic_search_white_48dp"
+       android:layout_alignParentBottom="true"
+       android:layout_alignParentRight="true"
+       android:layout_margin="8dp"
+       app:backgroundTint="#ffffff"
+       app:rippleColor="@color/colorAccent"
+       app:borderWidth="0dp"
+       app:elevation="6dp"
+       android:alpha="0"
+       app:pressedTranslationZ="12dp"
+       />
+
+</RelativeLayout>

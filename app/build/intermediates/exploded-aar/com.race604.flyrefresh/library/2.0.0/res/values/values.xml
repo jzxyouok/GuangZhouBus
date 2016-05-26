@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/Jing/Projects/android_repo/FlyRefresh/library/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="accent">#61B3DD</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="primary">#00BCD4</color>
+    <color name="primary_dark">#0097A7</color>
+    <color name="primary_light">#B2EBF2</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <declare-styleable name="PullHeaderLayout"><attr format="dimension" name="phl_header_height"/><attr format="dimension" name="phl_header_expand_height"/><attr format="dimension" name="phl_header_shrink_height"/><attr format="reference" name="phl_header"/><attr format="reference" name="phl_content"/><attr format="reference" name="phl_action"/></declare-styleable>
+    <!-- From: file:/Users/Jing/Projects/android_repo/FlyRefresh/library/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Library</string>
+</resources>

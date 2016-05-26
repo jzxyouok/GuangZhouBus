@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="22"
+    density="xhdpi"
+    format="7"
+    timestamp="756733245501632"
+    verifier="COMPATIBLE" >
+
+    <task
+        name="javac"
+        duration="384" />
+    <task
+        name="instant-run-dex"
+        duration="967" />
+    <task
+        name="instant-run-transform"
+        duration="47" />
+    <task
+        name="verifier"
+        duration="8" />
+
+    <artifact
+        location="C:\Users\vvxc\AndroidStudioProjects\GuangZhouBus\app\build\intermediates\reload-dex\debug\classes.dex"
+        type="RELOAD_DEX" />
+
+    <build timestamp="741104647601824" >
+        <artifact
+            location="C:\Users\vvxc\AndroidStudioProjects\GuangZhouBus\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="755481251264706"
+        verifier="R_CLASS_CHANGE" >
+        <artifact
+            location="C:\Users\vvxc\AndroidStudioProjects\GuangZhouBus\app\build\intermediates\res\resources-debug.ap_"
+            type="RESOURCES" />
+        <artifact
+            location="C:\Users\vvxc\AndroidStudioProjects\GuangZhouBus\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_2\classes.dex"
+            type="DEX" />
+        <artifact
+            location="C:\Users\vvxc\AndroidStudioProjects\GuangZhouBus\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_0\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="755919748392643"
+        verifier="CLASS_ADDED" >
+        <artifact
+            location="C:\Users\vvxc\AndroidStudioProjects\GuangZhouBus\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_3\classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="756606774890385" >
+        <artifact
+            location="C:\Users\vvxc\AndroidStudioProjects\GuangZhouBus\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_6\classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="756733245501632"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="C:\Users\vvxc\AndroidStudioProjects\GuangZhouBus\app\build\intermediates\reload-dex\debug\classes.dex"
+            type="RELOAD_DEX" />
+    </build>
+
+</instant-run>

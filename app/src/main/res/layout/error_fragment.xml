@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp">
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:background="@color/colorAccent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="你要找的是不是："
+            android:paddingTop="8dp"
+            android:background="#ffffff"
+            android:textSize="@dimen/text_size_3"
+            android:textColor="#727272"/>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:divider="@null"
+            android:scrollbarStyle="outsideInset"
+            android:background="#ffffff"
+            android:id="@+id/posibble_list"></ListView>
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
